@@ -1,0 +1,152 @@
+*{  
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  }
+  
+  .wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  }
+  
+  .wrapper>*{
+  padding:10px;
+  flex: 1 100%;
+  border-radius: 0;
+  }
+  
+  .inner-header{
+  width:340px;
+  height: 55px;
+  display: block;
+  background-color: rgba(146, 204, 206, 1);
+  text-align: right;
+  padding-right: 10px;
+  }
+  
+  .name{
+  font-size: 45px;
+  color:  rgba(49, 52, 61, 1);
+  font-weight: 1000;
+  font-family: 'Trebuchet MS';
+  vertical-align: top;
+  }
+  
+  .header {
+  background: rgba(49, 52, 61, 1);
+  height: 80px;
+  }
+
+  .banner{
+  position: relative;
+  }
+
+.banner-image{
+    height: 150px;
+    width:100%;
+    object-fit: cover;
+}
+  
+  .navigation{
+  float:right;
+  height:100%;
+  }
+  
+  .navigation a{
+  height: 0%;
+  display: table;
+  float: left;
+  padding: 0px 20px;           
+  }
+  
+  .navigation a li{
+  display: table-cell;
+  height: 100%;
+  color: rgba(146, 204, 206, 1);
+  font-family: 'Trebuchet MS';
+  font-size: 22px;
+  vertical-align: middle;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset:20%;
+  }
+
+  .main{
+  text-align: left;
+  height:300px;
+  font-size: 24px;
+  }
+  
+  .paragraph{
+  margin-top: 20px;
+  }
+  
+  
+  @media all and (min-width:800px) {
+  .main{flex:3;}
+
+  }
+  
+  .aside1{
+    order: 1;
+    max-width:30%;
+  }
+  
+  .about-me{
+  font-size: 45px;
+  color:rgba(68, 88, 119, 1);
+  font-weight: 600;
+  padding-left: 180px;
+  font-family: 'Trebuchet MS';
+  margin-top: 20px;
+  border-right: 3px solid rgba(68, 88, 119, 1);
+  height: 130px;
+
+  }
+  
+  .work{
+  font-size: 45px;
+  color:rgba(68, 88, 119, 1);
+  font-weight: 600;
+  padding-left: 180px;
+  font-family: 'Trebuchet MS';
+  margin-top:100px;
+  border-right: 3px solid rgba(68, 88, 119, 1);
+  height: 700px; 
+  }
+  
+  .contact-me{
+  font-size: 45px;
+  color:rgba(68, 88, 119, 1);
+  font-weight: 600;
+  padding-left: 120px;
+  padding-top: 30px;
+  font-family: 'Trebuchet MS'; 
+  border-right: 3px solid rgba(68, 88, 119, 1);
+  margin-top: 100px;
+  height: 121px;  
+  }
+
+  .yeti-games{
+   order: 3;
+  }
+  
+  .yeti-screenshot{
+    height: 100px;
+    position: absolute;
+    top: 60%;
+  }
+
+  .main{
+  order:2;
+  }
+
+  .footer{
+  order:4;
+  }
+  
+  @media all and (min-width:600px){
+  .aside{flex:1;}
+  }
