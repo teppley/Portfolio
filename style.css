@@ -144,9 +144,19 @@
   }
 
   .footer{
-  order:4;
+  order:5;
+  }
+
+  .aardvarchive-screenshot{
+    height: 100px;
+    position: absolute;
+    top: 50%;
   }
   
+  .centered-div{
+  order: 4;
+  }
+
   @media all and (min-width:600px){
   .aside{flex:1;}
   }
